@@ -1,0 +1,311 @@
+body{
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navegation{
+    background-color:#121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navegation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navegation .logo img{
+    width:80px;
+}
+
+.sidebar nav ul{
+    margin-top:20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-weight:600;
+    font-size: 14px;
+}
+
+.sidebar nav ul li a:hover{
+    color: aliceblue;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:4px 8px;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 190px 0 0 10px;
+    position: fixed;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display:flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border:0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+/*Aqui e a seção para criar a playlist*/
+.section-playlist{
+    width: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__content{
+    display:flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: #FFF;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.section-playlist__content .section-playlist__button{
+    display:flex;
+    justify-content: center;
+    background-color: #FFF;
+    color:#000;
+    border-radius: 20px;
+    font-size:12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
+.section-playlist__button:hover{
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*Aqui e para a seção do podcast e de seu conteudo*/
+.section-podcast{
+    width: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-podcast .section-podcast__content{
+    display:flex;
+    flex-direction: column;
+}
+
+.section-podcast__content .text{
+    padding-bottom: 14px;
+    color: #FFF;
+}
+
+.section-podcast__content .title{
+    font-weight: 700;
+}
+
+.section-podcast__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-podcast__content .section-podcast__button{
+    display:flex;
+    justify-content: center;
+    background-color: #FFF;
+    color:#000;
+    border-radius: 20px;
+    font-size:12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 150px;
+}
+
+.section-podcast__button:hover{
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.cookies{
+    margin:25px 20px 0 10px;
+}
+
+.cookies a{ 
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+ .cookies a:hover{
+    text-decoration: underline;
+}
+
+.Central{
+    margin:10px 20px 0 9px;
+}
+
+.Central a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.Central a:hover{
+    text-decoration: underline;
+}
+
+.languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color:#FFF;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.languages .languages__button:hover{
+    background-image: linear-gradient(45deg, yellow,green);
+    color: #000;
+}
+
+footer{
+    height: max-content;
+    display: flex;
+    width: 97%;
+    padding: 0px 30px;
+    bottom:0;
+    left:0;
+    right:0;
+    background-image: linear-gradient(to right,#ae2896, #509af4);
+    position: fixed;
+    border-radius: 4px;
+    margin-top: 150px;
+}
+
+footer .rodape_content{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFF;
+}
+
+
+footer .rodape_content .title{
+    padding: 10px;
+}
+
+footer .rodape_content p{
+    padding: 10px 0 0 10px;
+}
+
+footer .rodape_button .preamium{
+    display:flex;
+    justify-content: center;
+    background-color: #FFF;
+    color:#000;
+    border-radius: 20px;
+    font-size:12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    margin: 20px;
+}
+
+footer .rodape_button .preamium:hover{
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}

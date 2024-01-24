@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -16,7 +19,7 @@
         <nav class="sidebar_navegation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
                     <ul>
@@ -35,52 +38,96 @@
                     </ul>
             </div>
         </nav><!--Foi feita para fazer menus-->
-        
-        <div class="library">
-            <div class="library__content">
-                <button class="library__button">
-                    <span class="fa  fas fa-book"></span>
-                    <span>Sua biblioteca</span>
-                </button>
-                <span class="fa fa-plus"></span>
-                </div>
-                <section class="section-playlist">
-                    <div class="section-playlist__content">
-                        <span class="text title">Crie sua primeira playlist</span>
-                        <span class="text subtitle">É facil, vamos te ajudar</span>
-                        <button class="section-playlist__button">
-                            <Span>Criar playlist</Span>
-                        </button>
-                    </div>
-                </section>
+    </div>
 
-                <div class="cookies">
-                    <a href="#">Cookies</a>
-                </div>
-
-                <div class="Central">
-                    <a href="#">Central de atendimento</a>
-                </div>
-
-                <div class="languages">
-                    <button class="languages__button">
-                        <span class="fa fa-globe"></span>
-                        <span>Português do Brasil</span>
+    <div class="library">
+        <div class="library__content">
+            <button class="library__button">
+                <span class="fa  fas fa-book"></span>
+                <span>Sua biblioteca</span>
+            </button>
+            <span class="fa fa-plus"></span>
+            </div>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É facil, vamos te ajudar</span>
+                    <button class="section-playlist__button">
+                        <Span>Criar playlist</Span>
                     </button>
                 </div>
+            </section>
+
+            <section class="section-podcast">
+                <div class="section-podcast__content">
+                    <span class="text title">Que tal seguir um podcast novo</span>
+                    <span class="text subtitle">Avisaremos sobre os novos episódios</span>
+                    <button class="section-podcast__button">
+                        <Span>Explore podcasts</Span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="#">Cookies</a>
+            </div>
+
+            <div class="Central">
+                <a href="#">Central de atendimento</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
             </div>
         </div>
     </div>
 
-    
-    <!--<div class="Rodape">
-        <footer>
-        <div class="Rodape_content">
-            <span class="title">Teste o preamium</span>
-            <span class="text">Não precisa de cartão de credito</span>
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="seta direita">
+                    </button>
+
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
         </div>
-        </footer>
-    </div>-->
-    
+
+        <div class="content_centro">
+            <div class="centro">
+                <h1>Boa tarde!</h1>
+                <p>Navegar pelas seções</p>
+            </div>
+        </div>
+    </main>
+
+        <footer>
+        <div class="rodape_content">
+            <div class="text">
+            <p class="title">Teste preamium gratis</p>
+            <p>Increva-se para curtir música ilimitada e podcasts só com alguns anúncios.Não precisa de cartão de crédito.</p>
+            </div>
+            <div class="rodape_button">
+            <button class="preamium">Inscreva-se gratis</button>
+            </div>
+        </div>
+        </footer>   
 </body>
 </html>
