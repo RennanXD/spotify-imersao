@@ -210,6 +210,8 @@ body{
 
 .cookies{
     margin:25px 20px 0 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .cookies a{ 

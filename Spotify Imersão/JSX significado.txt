@@ -1,0 +1,6 @@
+JSX => E quando utiliza o HTML e o JavaScript tudo ao mesmo arquivo
+
+O que estudar depois?
+Ter contato com a comunidade no mercado de front-end
+
+techguide.sh
