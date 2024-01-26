@@ -4,6 +4,6 @@
 
 Para fazer com que o servidor da api funcione utilize esses codigos aqui no cmd:
 
+<p>npm install -g json-server@0.17.4 => esse aqui vai instalar o json-server para rodar a api</p>
 
-npm install -g json-server@0.17.4 => esse aqui vai instalar o json-server para rodar a api
-json-server --watch api-artists/artists.json => esse aqui e o comando de execução para fazer com que a api vai ao ar
+<p>json-server --watch api-artists/artists.json => esse aqui e o comando de execução para fazer com que a api vai ao ar</p>
